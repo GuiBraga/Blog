@@ -14,6 +14,21 @@ In error case run:
 
 To execute Spring Application:
 
-Enter in the *spring-boot-blog* and Run `./mvnw spring-boot:run`. The server started in `http://localhost:4200/`.
+Enter in the *spring-boot-blog* and Run `./mvnw spring-boot:run`. The server started in `http://localhost:9090/`.
 
 In error case import as a Maven Project in Eclipse and configure a 'run configuration' and add `spring-boot:run` in the project.
+
+Some informations will be recorded in the database. They are: 
+
+Users registred:
+Username: admin
+Password: 12345678
+
+Username: mod
+Password: 12345678
+
+Username: user1
+Password: 12345678
+
+Username: user2
+Password: 12345678
