@@ -21,14 +21,14 @@ In error case import as a Maven Project in Eclipse and configure a 'run configur
 Some informations will be recorded in the database. They are: 
 
 Users registred:
-Username: admin
-Password: 12345678
+- Username: admin
+- Password: 12345678
 
-Username: mod
-Password: 12345678
+- Username: mod
+- Password: 12345678
 
-Username: user1
-Password: 12345678
+- Username: user1
+- Password: 12345678
 
-Username: user2
-Password: 12345678
+- Username: user2
+- Password: 12345678
