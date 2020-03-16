@@ -1,0 +1,17 @@
+<h1 class="my-4">Lista de Autores
+</h1>
+<!-- Blog Post -->
+<div style="height: 450px; overflow-y: auto">
+  <div class="card mb-4" *ngFor="let author of authors">
+    <div class="card-body">
+      <h2 class="card-title">{{author.name}}</h2>
+      <p class="card-text">
+        {{author.shortDescription}}
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+

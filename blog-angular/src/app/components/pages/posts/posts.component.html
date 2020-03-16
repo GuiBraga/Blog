@@ -1,0 +1,21 @@
+<h1 class="my-4">Lista de Postagens
+</h1>
+<!-- Blog Post -->
+<div style="height: 450px; overflow-y: auto">
+  <div class="card mb-4" *ngFor="let post of posts">
+    <img class="card-img-top" src="{{post.image}}" alt="Card image cap">
+    <div class="card-body">
+      <h2 class="card-title">{{post.title}}</h2>
+      <p class="card-text">
+        {{post.content}}
+      </p>
+      <p class="card-text">
+        Criado por: <b>{{post?.author.name}}</b> em <b>{{post?.created_at | date:'dd/MM/yyyy HH:mm a'}}</b>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+

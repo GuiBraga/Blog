@@ -1,0 +1,20 @@
+
+<div class="card mb-4" style="margin-top: 25px">
+    <img class="card-img-top" src="{{post?.image}}" alt="Card image cap">
+    <div class="card-body">
+      <h2 class="card-title">{{post?.title}}</h2>
+      <p class="card-text">
+        {{post?.content}}
+      </p>
+      <p class="card-text">
+        Criado por: <b>{{post?.author.name}}</b>
+      </p>
+      <p class="card-text">
+        Adicionado em: <b>{{post?.created_at | date:'dd/MM/yyyy HH:mm a'}}</b>
+      </p>
+      <p class="card-text">
+        Atualizado em: <b>{{post?.updated_at | date:'dd/MM/yyyy HH:mm a'}}</b>
+      </p>
+    </div>
+  </div>
+

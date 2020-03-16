@@ -1,0 +1,13 @@
+<div class="my-4">
+    <h1>Esta é a área restrita para usuarios:</h1>
+
+    <h3>Informações do Usuário Logado:</h3>
+
+    <p><b>Username:</b> {{user.username}}</p>
+    <p><b>Email:</b> {{user.email}}</p>
+    <p><b>Data Criação:</b> {{user.created | date:'dd/MM/yyyy HH:mm a'}}</p>
+    <p><b>Author:</b> {{user.author?.name}}</p>
+
+    <button class="btn btn-sm btn-info" style="margin-bottom: 5px" (click)="logout()">Logout</button>
+
+</div>
